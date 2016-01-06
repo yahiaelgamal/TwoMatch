@@ -15,6 +15,7 @@ GEM
       dm-transactions (~> 1.2.0)
       dm-types (~> 1.2.0)
       dm-validations (~> 1.2.0)
+    diff-lcs (1.2.5)
     dm-aggregates (1.2.0)
       dm-core (~> 1.2.0)
     dm-constraints (1.2.0)
@@ -44,7 +45,7 @@ GEM
     dm-validations (1.2.0)
       dm-core (~> 1.2.0)
     fastercsv (1.5.5)
-    haml (4.0.6)
+    haml (4.0.7)
       tilt
     json (1.8.3)
     json_pure (1.8.3)
@@ -53,6 +54,21 @@ GEM
     rack (1.6.4)
     rack-protection (1.5.3)
       rack
+    rack-test (0.6.3)
+      rack (>= 1.0)
+    rspec (3.4.0)
+      rspec-core (~> 3.4.0)
+      rspec-expectations (~> 3.4.0)
+      rspec-mocks (~> 3.4.0)
+    rspec-core (3.4.1)
+      rspec-support (~> 3.4.0)
+    rspec-expectations (3.4.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.4.0)
+    rspec-mocks (3.4.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.4.0)
+    rspec-support (3.4.1)
     sinatra (1.4.6)
       rack (~> 1.4)
       rack-protection (~> 1.4)
@@ -68,4 +84,6 @@ DEPENDENCIES
   data_mapper
   haml
   pg
+  rack-test
+  rspec
   sinatra

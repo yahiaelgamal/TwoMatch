@@ -10,3 +10,7 @@ gem 'data_mapper'
 
 # Front-end
 gem 'haml'
+
+# testing
+gem 'rspec'
+gem 'rack-test'
